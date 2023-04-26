@@ -153,6 +153,12 @@ const StyledSidebar = styled.aside`
     margin: 10% auto 0;
     width: max-content;
   }
+  .cover-letter-link {
+    ${({ theme }) => theme.mixins.bigButton};
+    padding: 18px 50px;
+    margin: 10% auto 0;
+    width: max-content;
+  }
 `;
 
 const Menu = () => {
@@ -268,6 +274,26 @@ const Menu = () => {
 
             <a href="/resume.pdf" className="resume-link">
               Resume
+            </a>
+          </nav>
+        </StyledSidebar>
+
+        <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
+          <nav ref={navRef}>
+            {navLinks && (
+              <ol>
+                {navLinks.map(({ url, name }, i) => (
+                  <li key={i}>
+                    <Link to={url} onClick={() => setMenuOpen(false)}>
+                      {name}
+                    </Link>
+                  </li>
+                ))}
+              </ol>
+            )}
+
+            <a href="/cover-letter.pdf" className="cover-letter-link">
+              Cover Letter
             </a>
           </nav>
         </StyledSidebar>
