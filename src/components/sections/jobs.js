@@ -8,7 +8,7 @@ import sr from '@utils/sr';
 import { usePrefersReducedMotion } from '@hooks';
 
 const StyledJobsSection = styled.section`
-  max-width: 700px;
+  max-width: 1200px;
 
   .inner {
     display: flex;
@@ -176,6 +176,7 @@ const Jobs = () => {
             frontmatter {
               title
               company
+              companyTab
               location
               range
               url
@@ -245,12 +246,11 @@ const Jobs = () => {
   return (
     <StyledJobsSection id="jobs" ref={revealContainer}>
       <h2 className="numbered-heading">Where I’ve Worked</h2>
-
       <div className="inner">
         <StyledTabList role="tablist" aria-label="Job tabs" onKeyDown={e => onKeyDown(e)}>
           {jobsData &&
             jobsData.map(({ node }, i) => {
-              const { company } = node.frontmatter;
+              const { companyTab } = node.frontmatter;
               return (
                 <StyledTabButton
                   key={i}
@@ -262,7 +262,7 @@ const Jobs = () => {
                   tabIndex={activeTabId === i ? '0' : '-1'}
                   aria-selected={activeTabId === i ? true : false}
                   aria-controls={`panel-${i}`}>
-                  <span>{company}</span>
+                  <span>{companyTab}</span>
                 </StyledTabButton>
               );
             })}
@@ -293,9 +293,6 @@ const Jobs = () => {
                         </a>
                       </span>
                     </h3>
-
-                    <p className="range">{range}</p>
-
                     <div dangerouslySetInnerHTML={{ __html: html }} />
                   </StyledTabPanel>
                 </CSSTransition>

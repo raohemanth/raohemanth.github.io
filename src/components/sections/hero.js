@@ -38,6 +38,7 @@ const StyledHeroSection = styled.section`
   p {
     margin: 20px 0 0;
     max-width: 540px;
+    // text-align: justify;
   }
 
   .email-link {
@@ -60,28 +61,28 @@ const Hero = () => {
   }, []);
 
   const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Hemanth Rao.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const two = <h2 className="big-heading">Hemanth Rao</h2>;
+  const three = <h3 className="medium-heading">Experienced Full Stack Developer</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
-        </a>
-        .
+        I’m a final year master's student with  with 4 years of experience as a Full-Stack Developer in 
+        designing and developing highly scalable, resilient, fault-tolerant systems 
+        on a variety of platforms and technologies{' '}.
+      </p>
+      {/* <br/> */}
+      <p>
+        Actively looking for full time Full-Stack Developer / Software Developer or Backend Developer opportunities starting December 2023
       </p>
     </>
   );
   const five = (
     <a
       className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
+      href="https://www.linkedin.com/in/hemanthraokn"
       target="_blank"
       rel="noreferrer">
-      Check out my course!
+      Check out my LinkedIn!
     </a>
   );
 

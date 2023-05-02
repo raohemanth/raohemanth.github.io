@@ -125,7 +125,7 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'Python', 'Flask', 'Docker', 'Jenkins', 'PostgreSQL', 'MongoDB'];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -134,36 +134,21 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+            <p>Welcome to my website! I am <a class ="inline-link">Hemanth Rao</a>, an highly skilled Full-Stack developer with a proven track record 
+              of designing and developing scalable, resilient, and fault-tolerant systems for various platforms 
+              and technologies. With a Bachelor's degree in Computer Science and Engineering and a current pursuit
+              of a Master of Science in Computer Science at the esteemed University of Colorado, Boulder, 
+              I possess a strong educational background to complement my industry experience.
             </p>
-
-            <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+            <p>As a former Senior Software Engineer at Akamai Technologies, I have designed and developed multiple 
+              applications and frameworks from scratch. My expertise includes building full-stack applications from group-up,
+              setting coding standards, managing multiple projects, mentoring junior engineers, and ensure seamless and efficient 
+              project execution. I take pride in being an enthusiastic and conscientious team player with exceptional communication 
+              and soft skills. I am also passionate about learning new skills and identifying the best technologies to enhance 
+              our solutions. Furthermore, I believe in giving back to society and actively participate in 
+              volunteering activities to create a positive impact.
             </p>
-
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
           </div>
-
           <ul className="skills-list">
             {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
           </ul>

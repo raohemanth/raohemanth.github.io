@@ -10,10 +10,10 @@ module.exports = {
       name: 'Instagram',
       url: 'https://www.instagram.com/rao_hemanth',
     },
-    {
-      name: 'Twitter',
-      url: 'https://twitter.com/ihemanthrao',
-    },
+    // {
+    //   name: 'Twitter',
+    //   url: 'https://twitter.com/ihemanthrao',
+    // },
     {
       name: 'Linkedin',
       url: 'https://www.linkedin.com/in/hemanthraokn',
@@ -33,6 +33,10 @@ module.exports = {
       name: 'Work',
       url: '/#projects',
     },
+    // {
+    //   name: 'Certifications',
+    //   url: '/#certifications',
+    // },
     {
       name: 'Contact',
       url: '/#contact',
