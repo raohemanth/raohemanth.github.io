@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabindex="-1">
-        <a href="https://github.com/ihemanthrao/v4">
+        <a href="https://github.com/raohemanth/">
           <div>Built by Hemanth Rao</div>
 
           {githubInfo.stars && githubInfo.forks && (
