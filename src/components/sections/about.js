@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/anchor-is-valid */
 import React, { useEffect, useRef } from 'react';
 import { StaticImage } from 'gatsby-plugin-image';
 import styled from 'styled-components';
@@ -134,7 +135,7 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Welcome to my website! I am <a class ="inline-link">Hemanth Rao</a>, an highly skilled Full-Stack developer with a proven track record 
+            <p>Welcome to my website! I am <a className ="inline-link">Hemanth Rao</a>, an highly skilled Full-Stack developer with a proven track record 
               of designing and developing scalable, resilient, and fault-tolerant systems for various platforms 
               and technologies. With a Bachelor's degree in Computer Science and Engineering and a current pursuit
               of a Master of Science in Computer Science at the esteemed University of Colorado, Boulder, 
