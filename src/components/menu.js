@@ -278,7 +278,7 @@ const Menu = () => {
           </nav>
         </StyledSidebar>
 
-        <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
+        {/* <StyledSidebar menuOpen={menuOpen} aria-hidden={!menuOpen} tabIndex={menuOpen ? 1 : -1}>
           <nav ref={navRef}>
             {navLinks && (
               <ol>
@@ -296,7 +296,7 @@ const Menu = () => {
               Cover Letter
             </a>
           </nav>
-        </StyledSidebar>
+        </StyledSidebar> */}
       </div>
     </StyledMenu>
   );
