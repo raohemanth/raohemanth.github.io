@@ -60,7 +60,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        I’m actively seeking Full-Time roles starting December 2023, If you believe that my background is a right fit for your organization’s needs, do reach out to me at <a href ="mailto: hraokn@gmail.com">hraokn@gmail.com</a>.
+        I’m actively seeking Full-Time roles starting June 2024, If you believe that my background is a right fit for your organization’s needs, do reach out to me at <a href ="mailto: hraokn@gmail.com">hraokn@gmail.com</a>.
         Whether you have a question or just want to say hi, my inbox is always open.
       </p>
 

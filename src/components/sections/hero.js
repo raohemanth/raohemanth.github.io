@@ -72,7 +72,7 @@ const Hero = () => {
       </p>
       {/* <br/> */}
       <p>
-        Actively looking for full time Full-Stack Developer / Software Developer or Backend Developer opportunities starting December 2023
+        Actively looking for full time Full-Stack Developer / Software Developer or Backend Developer opportunities starting June 2024
       </p>
     </>
   );
