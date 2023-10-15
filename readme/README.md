@@ -42,3 +42,5 @@ Hello this is hemanth
 
 npm install yarn
 yarn
+<Make code changes>
+npm run deploy
