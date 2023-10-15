@@ -1,6 +1,7 @@
 ## 🛠 Installation & Set Up
 
 Hello this is hemanth
+
 1. Install the Gatsby CLI
 
    ```sh
@@ -38,3 +39,6 @@ Hello this is hemanth
    ```sh
    npm run serve
    ```
+
+npm install yarn
+yarn
