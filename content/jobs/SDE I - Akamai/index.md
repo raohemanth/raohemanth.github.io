@@ -8,6 +8,6 @@ range: 'Jul 2018 - Sept 2019'
 url: 'https://www.akamai.com'
 ---
 
-- <a class ="inline-link">Citadel:</a> Developed a framework on Perl, used for deployment of salesforce metadata components, thereby reducing the deployment time from 3 days to just under 15 mins
-- <a class ="inline-link">VM Build Automation:</a> Automated end-to-end workflow of UNIX virtual machine build and provisioning process. This includes connecting to various technologies some of which include Salesforce, Infoblox NIOS, and Vmware Vsphere. etc., saving ≈300 hours per year
-- Developed scripts and ansible playbooks to automate manual tasks performed by system, network, and IT operations team in regular intervals
+- <a class ="inline-link">Citadel:</a> Engineered a Perl-based framework for Salesforce metadata deployment, optimizing the process by fetching metadata from lower environments and expediting deployment to higher stages. Significantly reduced deployment time from 3 days to under 15 minutes, enhancing overall efficiency
+- <a class ="inline-link">VM Build Automation:</a> Automated UNIX virtual machine build and provisioning workflow, seamlessly integrating with Salesforce, Infoblox NIOS, and VMware Vsphere. Achieved an annual time savings of ≈300 hours
+- Developed scripts and ansible playbooks to automate manual tasks performed by system, network, and IT operations team.
