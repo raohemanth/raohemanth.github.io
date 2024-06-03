@@ -126,7 +126,17 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'React.js', 'Node.js', 'Python', 'Flask', 'Docker', 'Jenkins', 'PostgreSQL', 'MongoDB'];
+  const skills = [
+    'JavaScript (ES6+)',
+    'React.js',
+    'Node.js',
+    'Python',
+    'Flask',
+    'Docker',
+    'Jenkins',
+    'PostgreSQL',
+    'MongoDB',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,19 +145,25 @@ const About = () => {
       <div className="inner">
         <StyledText>
           <div>
-            <p>Welcome to my website! I am <a className ="inline-link">Hemanth Rao</a>, an highly skilled Full-Stack developer with a proven track record 
-              of designing and developing scalable, resilient, and fault-tolerant systems for various platforms 
-              and technologies. With a Bachelor's degree in Computer Science and Engineering and a current pursuit
-              of a Master of Science in Computer Science at the esteemed University of Colorado, Boulder, 
-              I possess a strong educational background to complement my industry experience.
+            <p>
+              Welcome to my website! I am <a className="inline-link">Hemanth Rao</a>, an highly
+              skilled Full-Stack developer with a proven track record of designing and developing
+              scalable, resilient, and fault-tolerant systems for various platforms and
+              technologies. With a Bachelor's degree in Computer Science and Engineering and a
+              current pursuit of a Master of Science in Computer Science at the esteemed University
+              of Colorado, Boulder, I possess a strong educational background to complement my
+              industry experience.
             </p>
-            <p>As a former Senior Software Engineer at Akamai Technologies, I have designed and developed multiple 
-              applications and frameworks from scratch. My expertise includes building full-stack applications from group-up,
-              setting coding standards, managing multiple projects, mentoring junior engineers, and ensure seamless and efficient 
-              project execution. I take pride in being an enthusiastic and conscientious team player with exceptional communication 
-              and soft skills. I am also passionate about learning new skills and identifying the best technologies to enhance 
-              our solutions. Furthermore, I believe in giving back to society and actively participate in 
-              volunteering activities to create a positive impact.
+            <p>
+              As a Senior Software Engineer at Akamai Technologies, I have designed and developed
+              multiple applications and frameworks from scratch. My expertise includes building
+              full-stack applications from group-up, setting coding standards, managing multiple
+              projects, mentoring junior engineers, and ensure seamless and efficient project
+              execution. I take pride in being an enthusiastic and conscientious team player with
+              exceptional communication and soft skills. I am also passionate about learning new
+              skills and identifying the best technologies to enhance our solutions. Furthermore, I
+              believe in giving back to society and actively participate in volunteering activities
+              to create a positive impact.
             </p>
           </div>
           <ul className="skills-list">

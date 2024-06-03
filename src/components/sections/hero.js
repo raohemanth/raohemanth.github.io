@@ -66,13 +66,16 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        I’m a final year master's student with  with 4 years of experience as a Full-Stack Developer in 
-        designing and developing highly scalable, resilient, fault-tolerant systems 
-        on a variety of platforms and technologies{' '}.
+        As a Senior SDE at Akamai with 4+ years of industry experience, I am Working on development
+        of Zero Trust Network Access solution offering precise access to private applications, based
+        on identity and context for Enterprises. Focused on enhancing security features, increasing
+        scalability, improving stability, and creating a flexible framework for future feature
+        development .
       </p>
       {/* <br/> */}
       <p>
-        Actively looking for full time Full-Stack Developer / Software Developer or Backend Developer opportunities starting June 2024
+        Actively looking for full time Full-Stack Developer / Software Developer or Backend
+        Developer opportunities starting June 2024
       </p>
     </>
   );
