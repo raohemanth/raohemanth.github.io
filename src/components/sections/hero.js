@@ -66,11 +66,11 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        As a Senior SDE at Akamai with 4+ years of industry experience, I am Working on development
-        of Zero Trust Network Access solution offering precise access to private applications, based
-        on identity and context for Enterprises. Focused on enhancing security features, increasing
-        scalability, improving stability, and creating a flexible framework for future feature
-        development .
+        As a Senior SDE at Akamai with almost 5 years of industry experience, I am Working on
+        development of Zero Trust Network Access solution offering precise access to private
+        applications, based on identity and context for Enterprises. Focused on enhancing security
+        features, increasing scalability, improving stability, and creating a flexible framework for
+        future feature development .
       </p>
       {/* <br/> */}
       <p>
