@@ -72,7 +72,7 @@ const Hero = () => {
         distributed systems that keep critical services running smoothly and securely.
       </p>
       {/* <br/> */}
-      <p>Actively looking for full time Backend Developer opportunities starting October 2025</p>
+      {/* <p>Actively looking for full time Backend Developer opportunities starting October 2025</p> */}
     </>
   );
   const five = (
