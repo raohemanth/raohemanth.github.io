@@ -127,10 +127,12 @@ const About = () => {
   }, []);
 
   const skills = [
+    'Python',
     'JavaScript (ES6+)',
+    'C++',
+    'C#',
     'React.js',
     'Node.js',
-    'Python',
     'Flask',
     'Docker',
     'Jenkins',
@@ -146,24 +148,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Welcome to my website! I am <a className="inline-link">Hemanth Rao</a>, an highly
-              skilled Full-Stack developer with a proven track record of designing and developing
-              scalable, resilient, and fault-tolerant systems for various platforms and
-              technologies. With a Bachelor's degree in Computer Science and Engineering and a
-              current pursuit of a Master of Science in Computer Science at the esteemed University
-              of Colorado, Boulder, I possess a strong educational background to complement my
-              industry experience.
+              Welcome to my website! I am <a className="inline-link">Hemanth Rao</a>, a Backend
+              Developer with a strong record of designing and delivering scalable, resilient, and
+              fault-tolerant systems. I hold a Master of Science in Computer Science from the
+              University of Colorado, Boulder, and a Bachelor's degree in Computer Science and
+              Engineering, combining deep academic knowledge with extensive industry experience.
             </p>
             <p>
-              As a Senior Software Engineer at Akamai Technologies, I have designed and developed
-              multiple applications and frameworks from scratch. My expertise includes building
-              full-stack applications from group-up, setting coding standards, managing multiple
-              projects, mentoring junior engineers, and ensure seamless and efficient project
-              execution. I take pride in being an enthusiastic and conscientious team player with
-              exceptional communication and soft skills. I am also passionate about learning new
-              skills and identifying the best technologies to enhance our solutions. Furthermore, I
-              believe in giving back to society and actively participate in volunteering activities
-              to create a positive impact.
+              I'm currently a Senior Software Engineer at Microsoft, where I focus on backend
+              architecture and high-availability engineering for Azure Database for PostgreSQL,
+              ensuring enterprise customers can rely on always-on, mission-critical services. My
+              work spans the entire software development lifecycle—from system design and coding to
+              testing, deployment, and performance optimization—while driving reliability and
+              efficiency at cloud scale.
+            </p>
+            <p>
+              I'm passionate about distributed systems and building platforms that operate at
+              massive scale, and I enjoy tackling the complex challenges of designing services that
+              are both highly available and performant. Previously, I worked at Akamai Technologies,
+              where I designed and built core backend systems from the ground up, set engineering
+              standards, and mentored junior developers to deliver high-quality solutions on
+              schedule.
             </p>
           </div>
           <ul className="skills-list">

@@ -66,17 +66,13 @@ const Hero = () => {
   const four = (
     <>
       <p>
-        As a Senior SDE at Akamai with almost 5 years of industry experience, I am Working on
-        development of Zero Trust Network Access solution offering precise access to private
-        applications, based on identity and context for Enterprises. Focused on enhancing security
-        features, increasing scalability, improving stability, and creating a flexible framework for
-        future feature development .
+        I'm a Senior Software Engineer at Microsoft with six years of experience in building Backend
+        and Full Stack Applications. Currently leading high-impact projects at Microsoft Azure
+        (PostgreSQL) and previously at Akamai. I focus on building reliable, scalable large-scale
+        distributed systems that keep critical services running smoothly and securely.
       </p>
       {/* <br/> */}
-      <p>
-        Actively looking for full time Full-Stack Developer / Software Developer or Backend
-        Developer opportunities starting June 2024
-      </p>
+      <p>Actively looking for full time Backend Developer opportunities starting October 2025</p>
     </>
   );
   const five = (

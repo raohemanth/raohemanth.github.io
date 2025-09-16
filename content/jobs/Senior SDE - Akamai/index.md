@@ -4,7 +4,7 @@ title: 'Senior Software Engineer'
 companyTab: 'Senior SDE - Akamai Technologies'
 company: 'Akamai Technologies'
 location: 'Seattle, WA'
-range: 'May 2024 - Present'
+range: 'May 2024 - Oct 2024'
 url: 'https://www.akamai.com/'
 ---
 
